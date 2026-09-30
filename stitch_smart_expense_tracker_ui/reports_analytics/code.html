@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary-container": "#b15f00", "primary-container": "#00855d", "on-secondary-fixed": "#131b2e", "primary": "#006948", "secondary-fixed-dim": "#bec6e0", "background": "#f8f9ff", "on-tertiary": "#ffffff", "on-surface": "#0b1c30", "on-surface-variant": "#3d4a42", "surface": "#f8f9ff", "inverse-surface": "#213145", "on-primary": "#ffffff", "inverse-primary": "#68dba9", "inverse-on-surface": "#eaf1ff", "on-primary-fixed": "#002114", "surface-container": "#e5eeff", "error": "#ba1a1a", "secondary-container": "#dae2fd", "on-tertiary-container": "#fffbff", "on-primary-container": "#f5fff7", "surface-variant": "#d3e4fe", "on-secondary-fixed-variant": "#3f465c", "surface-dim": "#cbdbf5", "on-error-container": "#93000a", "secondary": "#565e74", "on-background": "#0b1c30", "surface-tint": "#006c4a", "tertiary-fixed-dim": "#ffb77d", "surface-container-highest": "#d3e4fe", "tertiary": "#8d4b00", "surface-bright": "#f8f9ff", "on-error": "#ffffff", "surface-container-high": "#dce9ff", "error-container": "#ffdad6", "outline-variant": "#bccac0", "on-secondary-container": "#5c647a", "surface-container-low": "#eff4ff", "on-tertiary-fixed": "#2f1500", "on-tertiary-fixed-variant": "#6e3900", "on-secondary": "#ffffff", "on-primary-fixed-variant": "#005137", "outline": "#6d7a72", "surface-container-lowest": "#ffffff", "tertiary-fixed": "#ffdcc3", "secondary-fixed": "#dae2fd", "primary-fixed-dim": "#68dba9", "primary-fixed": "#85f8c4" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "margin": "1rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "gutter": "1rem", "space-md": "0.75rem", "margin-desktop": "2rem", "space-xl": "1.5rem", "space-lg": "1rem", "margin-tablet": "1.5rem" }, fontFamily: { "body-lg": ["Inter"], "label-lg": ["Inter"], "label-md": ["Inter"], "headline-md": ["Inter"], "headline-lg": ["Inter"], "body-sm": ["Inter"], "display-lg": ["Inter"], "metric-num": ["Inter"], "display-lg-mobile": ["Inter"], "label-sm": ["Inter"], "body-md": ["Inter"], "headline-sm": ["Inter"] }, fontSize: { "body-lg": ["16px", { lineHeight: "24px", letterSpacing: "-0.005em", fontWeight: "400" }], "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "500" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.01em", fontWeight: "500" }], "headline-md": ["20px", { lineHeight: "28px", letterSpacing: "-0.015em", fontWeight: "600" }], "headline-lg": ["24px", { lineHeight: "32px", letterSpacing: "-0.02em", fontWeight: "600" }], "body-sm": ["13px", { lineHeight: "18px", letterSpacing: "0em", fontWeight: "400" }], "display-lg": ["36px", { lineHeight: "44px", letterSpacing: "-0.025em", fontWeight: "600" }], "metric-num": ["22px", { lineHeight: "28px", letterSpacing: "-0.02em", fontWeight: "600" }], "display-lg-mobile": ["30px", { lineHeight: "38px", letterSpacing: "-0.02em", fontWeight: "600" }], "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.04em", fontWeight: "600" }], "body-md": ["14px", { lineHeight: "20px", letterSpacing: "0em", fontWeight: "400" }], "headline-sm": ["16px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 300,'GRAD' 0,'opsz' 24;}</style></head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Smart Expense Tracker Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UblB_8eZz-LbsZwtazcCdFQaeRhp33iGxtgbZ4hQN4JVM1Q5GvIEf3iC_xWd6DrSRGdQvsGe4-Pz8gBZSFpvVYOj7meXR7jsEOjUMWIqJI5Z30iqpCVFUM7sD0Ez4SZ-D78jkFLLg2DGn_9EOKoCNh3vJ4LfrHydYkuj7eg4QMdspgXrKXsn96e6YfYzWpFCWSkF9omIIhUplu10piwOx451TXXJ-gd2U_mwQLf9KkYJA8g1-gmJJDLfM"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Smart Expense Tracker</span><span class="font-label-sm text-label-sm text-on-surface-variant font-normal leading-none mt-1">Reports</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Toggle color mode" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">light_mode</span></button><button aria-label="Account settings" class="w-11 h-11 flex items-center justify-center rounded-full" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvh3zttu7_Ea9HBZ78EtuoazNl8Nkkvhq5HZgi9J7nNineXwh5h0YrWdQJs20SFVNkDs03J9axA-CQr1989q3t7-KzD_ca9ZQQ3OWhlghSOaJbnBPQkOd4q16TmNAysmZ2stGva5xBAVc1JaVxjG4eHsN_iqY-PaTHWJQN0Lacsq7rBsJNtMA-McuSHH3pnxMeUht-pnSieMDqJbD6j2BiFkRoHfaCbaxdlXvUnO_8nVqYakQTSDcV"/></button></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-28"><div class="flex flex-col w-full px-margin pb-6 gap-space-lg">
+<!-- Period Selector -->
+<div class="w-full bg-surface-container-high p-1 rounded-xl flex items-center justify-between shadow-sm">
+<button class="flex-1 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all text-center" type="button">Daily</button>
+<button class="flex-1 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all text-center" type="button">Weekly</button>
+<button class="flex-1 py-1.5 rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary font-semibold shadow-sm transition-all text-center" type="button">Monthly</button>
+<button class="flex-1 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all text-center" type="button">Yearly</button>
+</div>
+<!-- Performance Snapshot Subtitle with Month Badge -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Financial Overview</span>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-label-sm font-label-sm bg-primary-fixed text-on-primary-fixed">October 2024</span>
+</div>
+<button class="flex items-center gap-1 text-primary hover:text-primary-container transition-colors" type="button">
+<span class="font-label-sm text-label-sm">Filters</span>
+<span class="material-symbols-outlined text-[16px]">tune</span>
+</button>
+</div>
+<!-- 2x2 Stat Cards Grid -->
+<div class="grid grid-cols-2 gap-space-md">
+<!-- Stat 1: Total Income -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Total Income</span>
+<div class="w-7 h-7 rounded-full bg-primary-fixed/40 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">south_west</span>
+</div>
+</div>
+<div class="mt-2">
+<span class="font-metric-num text-metric-num text-on-surface tracking-tight">$8,450.00</span>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-primary text-[14px]">trending_up</span>
+<span class="font-label-sm text-label-sm text-primary">+8.4%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">vs last mo</span>
+</div>
+</div>
+</div>
+<!-- Stat 2: Total Expenses -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Total Expenses</span>
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</div>
+</div>
+<div class="mt-2">
+<span class="font-metric-num text-metric-num text-on-surface tracking-tight">$3,820.50</span>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-primary text-[14px]">trending_down</span>
+<span class="font-label-sm text-label-sm text-primary">-4.2%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">vs last mo</span>
+</div>
+</div>
+</div>
+<!-- Stat 3: Net Savings -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Net Savings</span>
+<div class="w-7 h-7 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">savings</span>
+</div>
+</div>
+<div class="mt-2">
+<span class="font-metric-num text-metric-num text-primary tracking-tight">$4,629.50</span>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="font-label-sm text-label-sm bg-primary/10 text-primary px-1.5 py-0.2 rounded font-semibold">54.7%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">saved</span>
+</div>
+</div>
+</div>
+<!-- Stat 4: Top Category -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Top Expense</span>
+<div class="w-7 h-7 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[16px]">home</span>
+</div>
+</div>
+<div class="mt-2">
+<span class="font-metric-num text-metric-num text-on-surface tracking-tight">$1,500.00</span>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="font-label-sm text-label-sm text-on-surface font-medium truncate">Housing</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(39.2%)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Cash Flow Trend: Interactive Line Chart -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Cash Flow Trajectory</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">6-Month Income vs Expense comparison</p>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Income</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Spend</span>
+</div>
+</div>
+</div>
+<!-- Smooth Vector Line Chart -->
+<div class="w-full h-44 relative mt-1">
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 320 140">
+<defs>
+<lineargradient id="incomeGlow" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#006948" stop-opacity="0.22"></stop>
+<stop offset="100%" stop-color="#006948" stop-opacity="0.0"></stop>
+</lineargradient>
+<lineargradient id="expenseGlow" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#565e74" stop-opacity="0.14"></stop>
+<stop offset="100%" stop-color="#565e74" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<!-- Subtle Horizontal Grid Guidelines -->
+<line stroke="#bccac0" stroke-dasharray="3,3" stroke-opacity="0.25" stroke-width="0.8" x1="0" x2="320" y1="20" y2="20"></line>
+<line stroke="#bccac0" stroke-dasharray="3,3" stroke-opacity="0.25" stroke-width="0.8" x1="0" x2="320" y1="65" y2="65"></line>
+<line stroke="#bccac0" stroke-dasharray="3,3" stroke-opacity="0.25" stroke-width="0.8" x1="0" x2="320" y1="110" y2="110"></line>
+<!-- Income Filled Area & Curved Line -->
+<path d="M 0 62 C 40 50, 70 58, 106 38 C 142 20, 185 30, 220 22 C 255 15, 285 24, 320 12 L 320 130 L 0 130 Z" fill="url(#incomeGlow)"></path>
+<path d="M 0 62 C 40 50, 70 58, 106 38 C 142 20, 185 30, 220 22 C 255 15, 285 24, 320 12" fill="none" stroke="#006948" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Expense Filled Area & Curved Line -->
+<path d="M 0 95 C 45 88, 75 102, 110 82 C 145 68, 180 88, 220 74 C 255 64, 285 78, 320 68 L 320 130 L 0 130 Z" fill="url(#expenseGlow)"></path>
+<path d="M 0 95 C 45 88, 75 102, 110 82 C 145 68, 180 88, 220 74 C 255 64, 285 78, 320 68" fill="none" stroke="#565e74" stroke-dasharray="4,2" stroke-linecap="round" stroke-width="2"></path>
+<!-- High Point Indicator Pin -->
+<circle cx="320" cy="12" fill="#006948" r="3.5" stroke="#ffffff" stroke-width="2"></circle>
+<circle cx="320" cy="68" fill="#565e74" r="3.5" stroke="#ffffff" stroke-width="2"></circle>
+</svg>
+</div>
+<!-- Chart X-Axis Labels -->
+<div class="flex justify-between items-center px-1 font-label-sm text-label-sm text-on-surface-variant">
+<span>May</span>
+<span>Jun</span>
+<span>Jul</span>
+<span>Aug</span>
+<span>Sep</span>
+<span class="text-primary font-semibold">Oct</span>
+</div>
+</div>
+<!-- Expense Breakdown: Donut Chart & Category Legend -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Category Distribution</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ranked expense allocations</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">pie_chart</span>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-lg pt-1">
+<!-- Donut SVG Visualization -->
+<div class="relative w-36 h-36 flex-shrink-0 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90 transform" viewbox="0 0 120 120">
+<!-- Background Track -->
+<circle cx="60" cy="60" fill="transparent" r="48" stroke="#eff4ff" stroke-width="12"></circle>
+<!-- Housing: 39.2% (circumference ~ 301.59 -> 118.2) -->
+<circle cx="60" cy="60" fill="transparent" r="48" stroke="#006948" stroke-dasharray="301.59" stroke-dashoffset="0" stroke-linecap="round" stroke-width="12"></circle>
+<!-- Food & Groceries: 23.5% (70.8) -->
+<circle cx="60" cy="60" fill="transparent" r="48" stroke="#565e74" stroke-dasharray="301.59" stroke-dashoffset="-124" stroke-linecap="round" stroke-width="12"></circle>
+<!-- Transport: 14.8% (44.6) -->
+<circle cx="60" cy="60" fill="transparent" r="48" stroke="#8d4b00" stroke-dasharray="301.59" stroke-dashoffset="-199" stroke-linecap="round" stroke-width="12"></circle>
+<!-- Utilities: 12.3% (37.1) -->
+<circle cx="60" cy="60" fill="transparent" r="48" stroke="#68dba9" stroke-dasharray="301.59" stroke-dashoffset="-247" stroke-linecap="round" stroke-width="12"></circle>
+<!-- Leisure / Misc: 10.2% (30.8) -->
+<circle cx="60" cy="60" fill="transparent" r="48" stroke="#dae2fd" stroke-dasharray="301.59" stroke-dashoffset="-287" stroke-linecap="round" stroke-width="12"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center pointer-events-none">
+<span class="font-label-sm text-label-sm text-on-surface-variant leading-none">Total Out</span>
+<span class="font-headline-sm text-headline-sm text-on-surface tracking-tight mt-0.5">$3,820</span>
+</div>
+</div>
+<!-- Ranked Legend List -->
+<div class="w-full flex flex-col gap-space-xs">
+<div class="flex items-center justify-between py-1 hover:bg-surface-container-low px-1.5 rounded transition-colors">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary flex-shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface">Housing</span>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$1,500.00</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1.5">39.2%</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-1 hover:bg-surface-container-low px-1.5 rounded transition-colors">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary flex-shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface">Food &amp; Dining</span>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$898.00</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1.5">23.5%</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-1 hover:bg-surface-container-low px-1.5 rounded transition-colors">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary flex-shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface">Transit &amp; Fuel</span>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$565.50</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1.5">14.8%</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-1 hover:bg-surface-container-low px-1.5 rounded transition-colors">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-fixed-dim flex-shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface">Utilities &amp; Tech</span>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$470.00</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1.5">12.3%</span>
+</div>
+</div>
+<div class="flex items-center justify-between py-1 hover:bg-surface-container-low px-1.5 rounded transition-colors">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container flex-shrink-0"></span>
+<span class="font-label-md text-label-md text-on-surface">Entertainment</span>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$387.00</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-1.5">10.2%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Weekly Spend Velocity (Bar Chart) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Weekly Burn Velocity</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Weekly cadence vs target benchmark</p>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-0.5 bg-outline-variant"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Avg $955</span>
+</div>
+</div>
+<!-- Bar Chart Container -->
+<div class="relative w-full h-36 pt-4 flex items-end justify-between gap-3 px-2">
+<!-- Horizontal Benchmark Line ($955 mark) -->
+<div class="absolute inset-x-2 top-14 flex items-center z-10 pointer-events-none">
+<div class="w-full border-t border-dashed border-outline-variant"></div>
+</div>
+<!-- Bar 1: Week 1 ($820) -->
+<div class="flex-1 flex flex-col items-center gap-1 z-20 group cursor-pointer">
+<span class="font-label-sm text-label-sm text-on-surface-variant opacity-0 group-hover:opacity-100 transition-opacity">$820</span>
+<div class="w-full max-w-[36px] bg-secondary-container rounded-t-md h-20 transition-all duration-300 group-hover:bg-primary-fixed"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">W1</span>
+</div>
+<!-- Bar 2: Week 2 ($1,140 - Peak) -->
+<div class="flex-1 flex flex-col items-center gap-1 z-20 group cursor-pointer">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold opacity-0 group-hover:opacity-100 transition-opacity">$1,140</span>
+<div class="w-full max-w-[36px] bg-tertiary-container/80 rounded-t-md h-28 transition-all duration-300 group-hover:bg-tertiary-container"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">W2</span>
+</div>
+<!-- Bar 3: Week 3 ($910) -->
+<div class="flex-1 flex flex-col items-center gap-1 z-20 group cursor-pointer">
+<span class="font-label-sm text-label-sm text-on-surface-variant opacity-0 group-hover:opacity-100 transition-opacity">$910</span>
+<div class="w-full max-w-[36px] bg-secondary-container rounded-t-md h-22 transition-all duration-300 group-hover:bg-primary-fixed"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">W3</span>
+</div>
+<!-- Bar 4: Week 4 ($950.50) -->
+<div class="flex-1 flex flex-col items-center gap-1 z-20 group cursor-pointer">
+<span class="font-label-sm text-label-sm text-primary font-semibold opacity-100 transition-opacity">$950</span>
+<div class="w-full max-w-[36px] bg-primary rounded-t-md h-24 transition-all duration-300 shadow-sm"></div>
+<span class="font-label-sm text-label-sm text-primary font-semibold mt-1">W4</span>
+</div>
+</div>
+<!-- Contextual micro-insight banner -->
+<div class="bg-surface-container-low rounded-lg p-2.5 flex items-center gap-2 mt-1">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Pacing is <span class="font-semibold text-primary">12% under monthly ceiling</span>. Well balanced for month-end goals.
+      </p>
+</div>
+</div>
+<!-- Supporting Context: Recent Statement Preview Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">description</span>
+</div>
+<div>
+<h3 class="font-label-lg text-label-lg text-on-surface">Monthly Ledger Report</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Reconciled • 142 categorized entries</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high px-2 py-1 rounded">PDF • 1.2 MB</span>
+</div>
+<!-- Action: Export Statement Button -->
+<div class="pt-2">
+<button class="w-full h-12 bg-primary hover:bg-primary-container active:scale-[0.99] text-on-primary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-sm transition-all duration-200" type="button">
+<span class="material-symbols-outlined text-[20px]">file_download</span>
+<span>Export Statement (CSV / PDF)</span>
+</button>
+</div>
+</div>
+<script>
+  // Simple interactive segment switcher for period tabs
+  document.querySelectorAll('button').forEach(btn => {
+    if (['Daily', 'Weekly', 'Monthly', 'Yearly'].includes(btn.innerText.trim())) {
+      btn.addEventListener('click', function() {
+        const parent = this.parentElement;
+        parent.querySelectorAll('button').forEach(b => {
+          b.className = 'flex-1 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all text-center';
+        });
+        this.className = 'flex-1 py-1.5 rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary font-semibold shadow-sm transition-all text-center';
+      });
+    }
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.03)]" data-active-classes="text-primary font-semibold"><div class="flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[22px]">space_dashboard</span><span class="font-label-sm text-label-sm mt-0.5 tracking-tight">Dashboard</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="expenses" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm mt-0.5 tracking-tight">Expenses</span></a><div class="flex items-center justify-center"><a aria-label="Add Expense" class="flex items-center justify-center w-12 h-12 -mt-4 rounded-full bg-primary text-on-primary shadow-[0_4px_14px_rgba(0,105,72,0.35)] active:scale-95 transition-transform" data-path="add-expense" href="#"><span class="material-symbols-outlined text-[26px]">add</span></a></div><a class="flex flex-col items-center justify-center min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="budget" href="#"><span class="material-symbols-outlined text-[22px]">pie_chart</span><span class="font-label-sm text-label-sm mt-0.5 tracking-tight">Budget</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] h-12 transition-colors text-primary font-semibold" data-path="reports" href="#"><span class="material-symbols-outlined text-[22px]">query_stats</span><span class="font-label-sm text-label-sm mt-0.5 tracking-tight">Reports</span></a></div></nav></body></html>
